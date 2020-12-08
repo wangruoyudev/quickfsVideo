@@ -45,4 +45,4 @@ class GetVideoList(View):
     def post(self, request):
         serialNum = request.POST.get('serialNum')
         print('========>serialNum:', serialNum)
-        return JsonResponse({'total': '22223'})
+        return JsonResponse({'total': '222234'})
